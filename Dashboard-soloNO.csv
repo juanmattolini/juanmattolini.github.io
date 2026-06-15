@@ -1,0 +1,188 @@
+Procedimiento;TaskID;Equipo;Tarea;Fecha y Hora;Resultado
+LP - FCCB - FRACC R7;108241;JV-7101 AM;La grasera esta funcionando correctamente?;2026-05-28 09:34:36;No
+LP - FCCB - FRACC R7;108241;JV-7101 AM;El nivel de la grasera es correcto?;2026-05-28 09:34:37;No
+LP - FCCB - FRACC R7;108241;JV-7101 BM;La grasera esta funcionando correctamente?;2026-05-28 09:34:06;No
+LP - FCCB - FRACC R7;108241;JV-7101 BM;El nivel de la grasera es correcto?;2026-05-28 09:34:07;No
+LP - FCCB - FRACC R7;108241;JV-7101 DM;El nivel de la grasera es correcto?;2026-05-28 09:33:02;No
+LP - FCCB - FRACC R7;108241;JV-7101 GM;El nivel de la grasera es correcto?;2026-05-28 09:31:38;No
+LP - FCCB - FRACC R7;108241;JV-7108 BM;La grasera esta funcionando correctamente?;2026-05-28 09:26:13;No
+LP - FCCB - FRACC R7;108241;JV-7108 BM;Hay ausencia de ruidos, vibraciones anormales y perdida de fluidos?;2026-05-28 09:26:26;No
+LP - PDA - Rutina 2 Operador PDA;108318;HORNO BA-201;El nivel del ha-201 se encuentra visible?;2026-05-28 11:02:05;No
+LP - PDA - Rutina 2 Operador PDA;108318;COMPRESOR JC-44201 MR;Hay ausencia de ruidos o vibraciones anormales?;2026-05-28 11:02:45;No
+LP - PDA - Rutina 2 Operador PDA;108318;AEROENFRIADORES;JV-44230 M-Las correas se encuentran en buen estado?;2026-05-28 11:03:00;No
+LP - PDA - Rutina 1 Operador PDA;108315;J-44201 M/T;J-44201 T-El nivel de fluido barrera esta OK?;2026-05-28 10:52:28;No
+LP - PDA - Rutina 1 Operador PDA;108315;J-44205 BM/AM/M;J-44205 BM-El nivel de fluido barrera esta OK?;2026-05-28 10:54:16;No
+LP - PDA - Rutina 1 Operador PDA;108315;J-44210 M/T;J-44210 T-La refrigeracion de los sellos esta OK?;2026-05-28 11:01:23;No
+LP - PDA - Rutina 1 Operador PDA;108315;J-44210 M/T;J-44210 T-Se observa correcta circulacion de fluidos?;2026-05-28 11:01:24;No
+LP - PDA - Rutina 1 Operador PDA;108315;J-44210 M/T;J-44210 T-La refrigeracion de la bomba circula correctamente?;2026-05-28 11:01:26;No
+LP - PDA - Rutina 1 Operador PDA;108315;J-44204 TR/ATR;J-44204 TR-La refrigeracion de la bomba circula correctamente?;2026-05-28 10:49:32;No
+LP - PDA - Rutina 3 Operador PDA;108313;PDA DRENAJES;Hay ausencia de hidrocarburos?;2026-05-27 07:57:08;No
+LP - PDA - Rutina 3 Operador PDA;108313;PDA TRINCHERA CALLE 10 E/ 29 Y 33;Hay ausencia de agua?;2026-05-27 07:57:12;No
+LP - PDA - Rutina 3 Operador PDA;108313;PDA TRINCHERA CALLE 10 E/ 29 Y 33;Hay ausencia de hidrocarburos?;2026-05-27 07:57:14;No
+LP - PDA - Rutina 3 Operador PDA;108313;PDA TRINCHERA CALLE 29;Hay ausencia de agua?;2026-05-27 07:57:22;No
+LP - PDA - Rutina 3 Operador PDA;108313;PDA TRINCHERA CALLE 29;Hay ausencia de hidrocarburos?;2026-05-27 07:57:24;No
+LP - CENTRAL II - Salida 1;108322;J-2106 AT;El visor de aceite de niebla esta vacio?;2026-05-28 11:07:54;No
+LP - CENTRAL II - Salida 1;108322;J-2106 AT;La presion diferencial del filtro es menor a 500 g?;2026-05-28 11:07:56;No
+LP - CENTRAL II - Salida 1;108322;J-2106 AM;El visor de aceite de niebla esta vacio?;2026-05-28 11:08:11;No
+LP - CENTRAL II - Salida 1;108322;J-2106 DM;El visor de aceite de niebla esta vacio?;2026-05-28 11:08:58;No
+LP - CENTRAL II - Salida 1;108322;JV-2127 TR;La Presion diferencial de filtro de aceite es menor a 500 g?;2026-05-28 11:07:32;No
+LP CENTRAL II Salida 3;108323;J-2109 TR;El visor de aceite de niebla esta vacio?;2026-05-28 11:10:28;No
+LP CENTRAL II Salida 3;108323;J-2109 TR;La presion diferencial del filtro es menor a 500 g?;2026-05-28 11:10:33;No
+LP CENTRAL II Salida 3;108323;J-2109 M;El visor de aceite de niebla esta vacio?;2026-05-28 11:09:35;No
+LP CENTRAL II Salida 3;108323;J-2109 AM;El visor de aceite de niebla esta vacio?;2026-05-28 11:09:26;No
+LP CENTRAL II Salida 3;108323;J-2109 BM;El visor de aceite de niebla esta vacio?;2026-05-28 11:10:45;No
+LP CENTRAL II Salida 3;108323;J-2109 CM;El visor de aceite de niebla esta vacio?;2026-05-28 11:10:56;No
+LP CENTRAL II Salida 3;108323;JC-2702 M;La presion diferencial de filtro de aceite es menor a 500g?;2026-05-28 11:11:30;No
+LP CENTRAL II Salida 3;108323;JC-2703 M;La presion diferencial de filtro de aceite es menor a 500g?;2026-05-28 11:11:45;No
+LP CENTRAL II Salida 3;108323;JC-2704 M;La presion diferencial de filtro de aceite es menor a 500g?;2026-05-28 11:12:00;No
+LP CENTRAL II Salida 3;108323;JC-2705 T;La presion diferencial de filtro de aceite es menor a 500g?;2026-05-28 11:12:19;No
+LP - Central II - Salida 2;108325;J-2709 M;El visor de aceite de niebla esta vacio?;2026-05-28 11:14:23;No
+LP - Central II - Salida 2;108325;J-2709 AM;El visor de aceite de niebla esta vacio?;2026-05-28 11:15:00;No
+LP - Central II - Salida 2;108325;J-2706 AM;El visor de aceite de niebla esta vacio?;2026-05-28 11:13:58;No
+LP - Central II - Salida 2;108325;J-2706 BM;El visor de aceite de niebla esta vacio?;2026-05-28 11:14:09;No
+LP - CENTRAL II - Salida 4;108327;Q-2127;Se encuentran todos los pilotos encendidos?;2026-05-28 11:17:13;NO
+LP - CENTRAL II - Salida 4;108327;RUEDA LJUNGSTROM;El diferencial de filtro de la bomba de aceite es menor a 1 kg?;2026-05-28 11:16:42;NO
+LP - CENTRAL II - Salida 4;108327;RUEDA LJUNGSTROM;El nivel optico de domo es coincidente con la seal de sala?;2026-05-28 11:16:51;NO
+LP - CENTRAL II - Salida 4;108327;L-A-2103;El nivel optico es correcto?;2026-05-28 11:17:41;NO
+LP - PDA - Rutina 3 Operador PDA;108320;PDA DRENAJES;Hay ausencia de hidrocarburos?;2026-05-28 11:03:46;No
+LP - PDA - Rutina 3 Operador PDA;108320;PDA TRINCHERA CALLE 10 E/ 29 Y 33;Hay ausencia de agua?;2026-05-28 11:03:51;No
+LP - PDA - Rutina 3 Operador PDA;108320;PDA TRINCHERA CALLE 10 E/ 29 Y 33;Hay ausencia de hidrocarburos?;2026-05-28 11:03:53;No
+LP - PDA - Rutina 3 Operador PDA;108320;PDA TRINCHERA CALLE 29;Hay ausencia de agua?;2026-05-28 11:04:03;No
+LP - PDA - Rutina 3 Operador PDA;108320;PDA TRINCHERA CALLE 29;Hay ausencia de hidrocarburos?;2026-05-28 11:04:04;No
+LP - REDES - API OESTE ANTORCHA;108205;F-60900;El nivel placa esta limpio?;2026-05-28 08:45:19;No
+LP - REDES - API OESTE ANTORCHA;108205;F-60901;La presion esta en condiciones normales?;2026-05-28 08:38:28;No
+LP - REDES - API OESTE ANTORCHA;108205;J-60909 AM;El sello esta en condiciones?;2026-05-28 08:34:21;No
+LP - REDES - API OESTE ANTORCHA;108205;J-60909 AM;Hay ausencia de perdida de fluidos?;2026-05-28 08:34:23;No
+LP - REDES - API OESTE ANTORCHA;108205;F-1105;El nivel placa esta limpio?;2026-05-28 08:37:42;No
+LP - REDES - BBA LIVIANO 0730;108189;J-50015;El visor de aceite de niebla esta vacio?;2026-05-27 17:18:35;No
+LP - REDES - BBA LIVIANO 0730;108189;J-50014;El visor de aceite de niebla esta vacio?;2026-05-27 17:18:26;No
+LP - REDES - BBA LIVIANO 0730;108189;J-50010;El visor de aceite de niebla esta vacio?;2026-05-27 17:18:00;No
+LP - REDES - BBA LIVIANO 0730;108189;J-50019 AM;El visor de aceite de niebla esta vacio?;2026-05-27 17:18:09;No
+LP - REDES - BBA FO Salida 0730;108174;J-61043;Se mantiene completo el LOTO?;2026-05-28 08:03:03;No
+LP - REDES - BBA FO Salida 0730;108174;J-61048 M;El nivel de aceite esta OK?;2026-05-28 08:03:37;No
+LP - TOPP D - Rutina 1 Op A;105793;J-1864 M;¿La presion de fluido barrera esta por debajo de 0,200 kg/cm2?;2026-05-24 01:14:07;No
+LP - TOPP D - Rutina 1 Op A;105793;J-1866 M;¿La presion de fluido barrera esta por debajo de 0,200 kg/cm2?;2026-05-24 01:15:12;No
+LP - TOPP D - Rutina 1 Op A;108256;J-1864 M;La presion de fluido barrera esta por debajo de 0,200 kg/cm2?;2026-05-28 09:55:12;No
+LP - TOPP D - Rutina 1 Op A;108256;J-1866 M;La presion de fluido barrera esta por debajo de 0,200 kg/cm2?;2026-05-28 09:56:30;No
+LP - REDES - BBA CRUDO R0730;108149;J-60650;Hay ausencias de perdidas plan API?;2026-05-28 07:42:25;No
+LP - REDES - BBA CRUDO R0730;108149;J-60649;Pare remoto en servicio?;2026-05-28 07:42:47;No
+LP - REDES - BBA CRUDO R0730;108149;J-60646 AM;Hay ausencias de perdidas plan API?;2026-05-28 07:43:23;No
+LP - REDES - BBA CRUDO R0730;108149;J-60663 M;Hay ausencias de perdidas plan API?;2026-05-28 08:08:36;No
+LP - REDES - BBA CRUDO R0730;108149;ENTRESENDAS PECOM y TK-267;Hay ausencia de hidrocarburos?;2026-05-28 08:01:02;No
+LP - REDES - BBA CRUDO R0730;108149;DRENAJES;Hay ausencia de hidrocarburos?;2026-05-28 08:01:09;No
+LP - REDES - BBA CRUDO R0730;108149;ENTRESENDAS TK-267 y TK-263;Hay ausencia de hidrocarburos?;2026-05-28 08:05:00;No
+LP - REDES - BBA CRUDO R0730;108149;DRENAJES;Hay ausencia de hidrocarburos?;2026-05-28 08:05:05;No
+LP - BLENDING - Op Sala LUB 0730;108221;CALLE 10 ENTRE 11 Y 21;Hay ausencia de nivel de agua?;2026-05-28 08:46:51;No
+LP - BLENDING - Op Sala LUB 0730;108221;CALLE 10 ENTRE 25 Y 35;Hay ausencia de nivel de agua?;2026-05-28 08:47:00;No
+LP - BLENDING - Op Sala LUB 0730;108221;CRUCE DE CALLE 10 HACIA HTP;Hay ausencia de nivel de agua?;2026-05-28 08:47:07;No
+LP - BLENDING - Op Sala LUB 0730;108221;CALLE 15 ENTRE 10 Y 18;Hay ausencia de nivel de agua?;2026-05-28 08:47:20;No
+LP - BLENDING - Op Sala LUB 0730;108221;CRUCE DE CALLE 10 HACIA TKS 180 Y 181;Hay ausencia de nivel de agua?;2026-05-28 08:47:29;No
+LP - BLENDING - Op Sala LUB 0730;108221;FRENTE A API2 ENTRE CALLE 10 Y PERIMETRAL;Hay ausencia de nivel de agua?;2026-05-28 08:47:45;No
+LP - BLENDING - Op Sala LUB 0730;108221;CALLE 20 ENTRE 27 Y 35;Hay ausencia de nivel de agua?;2026-05-28 08:47:56;No
+LP - BLENDING - Op Sala LUB 0730;108221;CALLE 27 ENTRE 10 Y PERIMETRAL;Hay ausencia de nivel de agua?;2026-05-28 08:48:06;No
+LP - BLENDING - Op Sala LUB 0730;108221;Calle 31 ENTRE 10 Y PERIMETRAL;Hay ausencia de nivel de agua?;2026-05-28 08:48:16;No
+LP - BLENDING - Op Sala LUB 0730;108221;CRUCE DE CALLE 20 ENTRE Tk 820 Y MEK;Hay ausencia de nivel de agua?;2026-05-28 08:48:26;No
+LP - BLENDING - Op Sala LUB 0730;108221;CRUCE DE CALLE 20 ENTRE TKS SOLVENTE Y MEK;Hay ausencia de nivel de agua?;2026-05-28 08:48:34;No
+LP - BLENDING - Op Sala LUB 0730;108221;CRUCE DE CALLE 11 HACIA CILE;Hay ausencia de nivel de agua?;2026-05-28 08:48:41;No
+LP - BLENDING - Op Sala LUB 0730;108221;PATIO DE BOMBAS B.LUBRICANTES;Hay ausencia de nivel de agua?;2026-05-28 08:48:47;No
+LP - PTAI - Salida 1;108358;J-28023 M;El visor de aceite de niebla esta vacio?;2026-05-28 12:57:46;No
+LP - PTAI - Salida 1;108358;J-28024 M;El visor de aceite de niebla esta vacio?;2026-05-28 12:57:38;No
+LP - PTAI - Salida 1;108357;J-2301 M;El visor de aceite esta vacio?;2026-05-28 12:55:04;No
+LP - PTAI - Salida 1;108357;J-2301 BM;El visor de aceite esta vacio?;2026-05-28 12:55:14;No
+LP - PTAI - Salida 1;108357;J-2302 BM;Hay ausencia de ruidos, vibraciones anormales y perdida de fluidos?;2026-05-28 12:56:28;No
+LP - PTAI - Salida 1;108357;J-2303 M;El visor de aceite de niebla esta vacio?;2026-05-28 12:55:54;No
+LP - PTAI - Salida 1;108357;J-2303 AM;El visor de aceite de niebla esta vacio?;2026-05-28 12:55:48;No
+LP - PTAI - Salida 1;108357;J-2306 M;El decantador esta libre de agua?;2026-05-28 12:55:23;No
+LP - PTAI - Salida 1;108357;J-2306 M;La aceitera esta con nivel?;2026-05-28 12:55:24;No
+LP - PTAI - Salida 1;108357;J-2306 M;Hay ausencia de perdida de fluidos?;2026-05-28 12:55:24;No
+LP - PTAI - Salida 1;108357;J-2306 AM;El decantador esta libre de agua?;2026-05-28 12:55:29;No
+LP - PTAI - Salida 1;108357;J-2306 AM;La aceitera esta con nivel?;2026-05-28 12:55:29;No
+LP - PTAI - Salida 2;108360;J-28003 M;El visor de aceite de niebla esta vacio?;2026-05-28 13:00:13;No
+LP - PTAI - Salida 2;108360;J-28004 M;El decantador esta libre de agua?;2026-05-28 13:00:21;No
+LP - PTAI - Salida 2;108360;J-28004 M;La aceitera esta con nivel?;2026-05-28 13:00:22;No
+LP - PTAI - Salida 2;108360;J-28004 M;La refrigeracion de la bomba circula correctamente?;2026-05-28 13:00:22;No
+LP - PTAI - Salida 2;108360;J-28005 M;La aceitera esta con nivel?;2026-05-28 13:00:30;No
+LP - PTAI - Salida 2;108360;J-28006 M;El decantador esta libre de agua?;2026-05-28 13:00:35;No
+LP - PTAI - Salida 2;108360;J-28006 M;La aceitera esta con nivel?;2026-05-28 13:00:35;No
+LP - PTAI - Salida 2;108360;J-28006 M;La refrigeracion de la bomba circula correctamente?;2026-05-28 13:00:36;No
+LP - PTAI - Salida 2;108360;J-28006 M;Hay ausencia de ruidos, vibraciones anormales y perdida de fluidos?;2026-05-28 13:00:36;No
+LP - PTAI - Salida 2;108360;J-28007 M;El decantador esta libre de agua?;2026-05-28 13:00:42;No
+LP - PTAI - Salida 2;108360;J-28007 M;La aceitera esta con nivel?;2026-05-28 13:00:42;No
+LP - PTAI - Salida 2;108360;J-28007 M;La refrigeracion de la bomba circula correctamente?;2026-05-28 13:00:42;No
+LP - PTAI - Salida 2;108360;J-28070 AM;El decantador esta libre de agua?;2026-05-28 13:00:05;No
+LP - PTAI - Salida 2;108360;J-28070 AM;La aceitera esta con nivel?;2026-05-28 13:00:05;No
+LP - PTAI - Salida 2;108360;J-28070 AM;La refrigeracion de la bomba circula correctamente?;2026-05-28 13:00:05;No
+LP - PTAI - Salida 2;108360;J-28031 M;El visor de aceite de niebla esta vacio?;2026-05-28 13:00:55;No
+LP - PTAI - Salida 2;108360;J-28032 M;El decantador esta libre de agua?;2026-05-28 13:00:49;No
+LP - PTAI - Salida 2;108360;J-28032 M;La aceitera esta con nivel?;2026-05-28 13:00:49;No
+LP - PTAI - Salida 2;108360;J-28032 M;La refrigeracion de la bomba circula correctamente?;2026-05-28 13:00:50;No
+LP - PTAI - Salida 3;108361;J-28082 M;¿El visor de aceite de niebla esta vacio?;2026-05-28 13:01:14;No
+LP - PTAI - Salida 3;108361;J-28082 AM;¿El visor de aceite de niebla esta vacio?;2026-05-28 13:01:21;No
+LP - PTAI - Salida 2;108364;J-28011;El visor de aceite de niebla esta vacio?;2026-05-28 13:04:46;No
+LP - PTAI - Salida 2;108364;J-28013;El decantador esta libre de agua?;2026-05-28 13:04:25;No
+LP - PTAI - Salida 2;108364;J-28013;La aceitera esta con nivel?;2026-05-28 13:04:26;No
+LP - PTAI - Salida 2;108364;J-28013;La refrigeracion de la bomba circula correctamente?;2026-05-28 13:04:26;No
+LP - PTAI - Salida 2;108364;J-28014;El decantador esta libre de agua?;2026-05-28 13:04:34;No
+LP - PTAI - Salida 2;108364;J-28014;La aceitera esta con nivel?;2026-05-28 13:04:34;No
+LP - PTAI - Salida 2;108364;J-28014;La refrigeracion de la bomba circula correctamente?;2026-05-28 13:04:35;No
+LP - PTAI - Salida 3;108362;J-28082 M;¿El visor de aceite de niebla esta vacio?;2026-05-28 13:01:14;No
+LP - PTAI - Salida 3;108362;J-28082 AM;¿El visor de aceite de niebla esta vacio?;2026-05-28 13:01:21;No
+PH - ME - U-500 RC_P2;108244;P-0505 B;P-0505 B disponible?;2026-05-28 09:34:15;NO
+LP - CENTRAL I - Salida 2;108291;J-2202 T;El nivel del reservorio es correcto?;2026-05-28 10:23:57;No
+LP - CENTRAL I - Salida 2;108291;J-2202 T;Hay ausencia de ruidos, vibraciones anormales y perdida de fluidos?;2026-05-28 10:24:03;No
+PH - ME - U-500 RC_P2;108368;P-0505 B;P-0505 B disponible?;2026-05-28 13:25:20;NO
+PH - Refinacion - RE_A-1000 RC;108258;API;Barredor de fondo disponible? (SI/NO);2026-05-27 21:11:00;No
+PH - Refinacion - RE_A-1000 RC;108258;API;Barredor de superficie disponible? (SI/NO);2026-05-27 21:11:01;No
+PH - Refinacion - RE_A-1000 RC;108285;API;Barredor de fondo disponible? (SI/NO);2026-05-28 10:16:00;No
+PH - Refinacion - RE_A-1000 RC;108285;API;Barredor de superficie disponible? (SI/NO);2026-05-28 10:16:01;No
+LP - TOPP D - Rutina 1 Op B;108035;J-1859 M;Visualiza venteo de niebla?;2026-05-27 23:29:39;No
+LP - TOPP D - Rutina 1 Op B;108035;J-1859 M;El visor de aceite de niebla esta vacio?;2026-05-27 23:29:39;No
+PH - Refinacion - RE_A-600 RC;108259;CALDERA B-601;Extraccion (SI/NO);2026-05-28 06:11:28;NO
+PH - Refinacion - RE_A-600 RC;108259;CALDERA B-602;Extraccion (SI/NO);2026-05-28 06:10:08;NO
+PH - Serv Aux - RO_Planta de Agua;108173;P1501A;P1501A - Condiciones operativas equipo OK;2026-05-28 08:08:56;No
+PH - Serv Aux - RO_Planta de Agua;108173;P1501C;P1501C - Condiciones operativas equipo OK;2026-05-28 08:10:29;No
+PH - Serv Aux - RO_Planta de Agua;108173;C1302B;C1302B - Condiciones operativas equipo OK;2026-05-28 08:15:20;No
+PH - Serv Aux - RO_Planta de Agua;108173;AC1301A;AC1301A - Condiciones operativas equipo OK;2026-05-28 08:15:27;No
+PH - Serv Aux - RO_Planta de Agua;108173;AC1301B;AC1301B - Condiciones operativas equipo OK;2026-05-28 08:15:34;No
+LP - ISOHTNCA - R 2 (11 hs);108337;HORNO B-1701 - HTNI;El nivel del separador liquido se encuentra visible?;2026-05-28 12:11:34;No
+LP - ISOHTNCA - R 2 (11 hs);108337;JC-1701 M;La presion de circuito de lubricacion es mayor a 2 kg?;2026-05-28 11:53:35;No
+LP - ISOHTNCA - R 2 (11 hs);108337;JC-1751 AM;La presion de circuito de lubricacion es mayor a 2 kg?;2026-05-28 11:55:34;No
+LP - ISOHTNCA - R 2 (11 hs);108337;HORNO B-1101 - HTNCA;El nivel del separador liquido se encuentra visible?;2026-05-28 12:35:44;No
+LP - TOPP D - Rutina 2 Op B;108381;J-1868 M;La presion de fluido barrera esta por encima de 0,350 kg/cm2?;2026-05-28 14:26:41;No
+LP - TOPP D - Rutina 2 Op B;108381;J-1868 M;Se observa correcta circulacion de fluidos?;2026-05-28 14:26:42;No
+LP - TOPP D - Rutina 2 Op B;108381;J-1870 M;La presion de fluido barrera esta por encima de 0,350 kg/cm2?;2026-05-28 14:26:23;No
+LP - TOPP D - Rutina 2 Op B;108381;J-1870 M;Se observa correcta circulacion de fluidos?;2026-05-28 14:26:24;No
+LP - TOPP D - Rutina 4 Op B;108378;TRINCHERA CALLE 18 Y 23;Hay ausencia de agua?;2026-05-28 14:24:22;NO
+LP - TOPP D - Rutina 4 Op B;108378;TRINCHERA CALLE 18 Y 23;Hay ausencia de hidrocarburos?;2026-05-28 14:24:24;NO
+LP - TOPP D - Rutina 4 Op B;108378;TRINCHERA CALLE 18 Y 23;Hay ausencia de perdidas en caerias de trinchera?;2026-05-28 14:24:26;NO
+LP - TOPP D - Rutina 4 Op B;108378;DRENAJES;Hay ausencia de hidrocarburos?;2026-05-28 14:24:37;NO
+QUIM - S100 - Rotantes;108335;BM-121 (VENT L121) A;El fuelle se encuentra en buen estado?;2026-05-28 11:53:39;NO
+QUIM - S100 - Rotantes;108335;J-122 A;Visualiza venteo de niebla?;2026-05-28 11:50:13;NO
+QUIM - S100 - Rotantes;108335;J-122 B;Visualiza venteo de niebla?;2026-05-28 11:50:22;NO
+QUIM - S100 - Rotantes;108335;J-105 A;Esta colocada la chapa a pump out?;2026-05-28 11:53:05;NO
+QUIM - S100 - Rotantes;108335;J-105 B;Esta colocada la chapa a pump out?;2026-05-28 11:53:14;NO
+QUIM - S100 - Rotantes;108335;J-124 A;Esta colocada la chapa a pump out?;2026-05-28 11:52:06;NO
+QUIM - S100 - Rotantes;108335;J-124 B;Esta colocada la chapa a pump out?;2026-05-28 11:52:22;NO
+QUIM - S100 - Rotantes;108335;J-159 A;Esta colocada la chapa a pump out?;2026-05-28 11:50:01;NO
+QUIM - S100 - Rotantes;108335;J-174 A;Esta colocada la chapa a pump out?;2026-05-28 11:51:49;NO
+QUIM - S100 - Rotantes;108335;J-174 B;Esta colocada la chapa a pump out?;2026-05-28 11:51:56;NO
+QUIM - S100 - Rotantes;108335;J-121 D;Esta colocada la chapa a pump out?;2026-05-28 11:51:27;NO
+LP - Central II - Salida 2;108401;J-2709 M;El visor de aceite de niebla esta vacio?;2026-05-28 15:00:19;No
+LP - Central II - Salida 2;108401;J-2709 AM;El visor de aceite de niebla esta vacio?;2026-05-28 15:00:38;No
+LP - Central II - Salida 2;108401;J-2706 AM;El visor de aceite de niebla esta vacio?;2026-05-28 14:59:48;No
+LP - Central II - Salida 2;108401;J-2706 BM;El visor de aceite de niebla esta vacio?;2026-05-28 14:59:59;No
+LP CENTRAL II Salida 3;108400;J-2109 TR;El visor de aceite de niebla esta vacio?;2026-05-28 14:56:34;No
+LP CENTRAL II Salida 3;108400;J-2109 TR;La presion diferencial del filtro es menor a 500 g?;2026-05-28 14:56:39;No
+LP CENTRAL II Salida 3;108400;J-2109 M;El visor de aceite de niebla esta vacio?;2026-05-28 14:56:18;No
+LP CENTRAL II Salida 3;108400;J-2109 AM;El visor de aceite de niebla esta vacio?;2026-05-28 14:56:07;No
+LP CENTRAL II Salida 3;108400;J-2109 BM;El visor de aceite de niebla esta vacio?;2026-05-28 14:56:50;No
+LP CENTRAL II Salida 3;108400;J-2109 CM;El visor de aceite de niebla esta vacio?;2026-05-28 14:57:05;No
+LP CENTRAL II Salida 3;108400;JC-2702 M;La presion diferencial de filtro de aceite es menor a 500g?;2026-05-28 14:57:30;No
+LP CENTRAL II Salida 3;108400;JC-2703 M;La presion diferencial de filtro de aceite es menor a 500g?;2026-05-28 14:57:48;No
+LP CENTRAL II Salida 3;108400;JC-2704 M;La presion diferencial de filtro de aceite es menor a 500g?;2026-05-28 14:58:02;No
+LP CENTRAL II Salida 3;108400;JC-2705 T;La presion diferencial de filtro de aceite es menor a 500g?;2026-05-28 14:58:19;No
+LP - CENTRAL II - Salida 1;108398;J-2106 AT;El visor de aceite de niebla esta vacio?;2026-05-28 14:54:41;No
+LP - CENTRAL II - Salida 1;108398;J-2106 AT;La presion diferencial del filtro es menor a 500 g?;2026-05-28 14:54:43;No
+LP - CENTRAL II - Salida 1;108398;J-2106 AM;El visor de aceite de niebla esta vacio?;2026-05-28 14:54:18;No
+LP - CENTRAL II - Salida 1;108398;J-2106 DM;El visor de aceite de niebla esta vacio?;2026-05-28 14:55:27;No
+LP - CENTRAL II - Salida 1;108398;JV-2127 TR;La Presion diferencial de filtro de aceite es menor a 500 g?;2026-05-28 14:53:54;No
