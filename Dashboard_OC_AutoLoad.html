@@ -214,6 +214,7 @@ window.addEventListener('DOMContentLoaded',function(){
   document.getElementById('manualFi').addEventListener('change',function(ev){var f=ev.target.files[0];if(f)loadLocalFile(f)});
 });
 
+
 async function autoLoad(){
   var status=document.getElementById('loadStatus');
   try{
@@ -222,9 +223,15 @@ async function autoLoad(){
     if(!resp.ok)throw new Error('HTTP '+resp.status);
     status.textContent='Procesando datos...';
     var text=await resp.text();
+
+    // ⏳ Delay visual (3 segundos) para mostrar la pantalla de carga
+    status.textContent='Preparando dashboard...';
+    await new Promise(function(r){setTimeout(r,3000)});
+
     parse(text,'Dashboard-soloNO.csv (auto)');
-    toast('✅ Datos cargados automáticamente');
+    toast('\u2705 Datos cargados automáticamente');
   }catch(err){
+
     console.error('Auto-load failed:',err);
     status.textContent='❌ Error: '+err.message;
     document.getElementById('errorBox').style.display='block';
