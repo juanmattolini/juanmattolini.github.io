@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Farmacia Las Compuertas | Luján de Cuyo, Mendoza</title>
+<meta name="description" content="Farmacia Las Compuertas - Salud, cuidado y bienestar en Las Compuertas, Luján de Cuyo. Medicamentos, perfumería, dermocosmética y mucho más." />
+<link rel="icon" type="image/png" href="logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --teal-dark:#1f3a3a;
+    --teal:#2BA8A8;
+    --teal-light:#4FB8B8;
+    --cyan-soft:#D9ECEC;
+    --bg:#ffffff;
+    --text:#1f3a3a;
+    --muted:#5d7a7a;
+    --shadow:0 6px 20px rgba(43,168,168,.15);
+    --shadow-strong:0 10px 30px rgba(31,58,58,.18);
+    --radius:16px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:'Poppins',sans-serif;
+    color:var(--text);
+    background:var(--bg);
+    line-height:1.6;
+  }
+  img{max-width:100%;display:block;}
+  a{color:var(--teal);text-decoration:none;transition:color .2s;}
+  a:hover{color:var(--teal-dark);}
+
+  /* NAVBAR */
+  header.navbar{
+    position:sticky;top:0;z-index:1000;
+    background:rgba(255,255,255,.95);
+    backdrop-filter:blur(8px);
+    box-shadow:0 2px 10px rgba(0,0,0,.05);
+  }
+  .nav-container{
+    max-width:1200px;margin:0 auto;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:.8rem 1.5rem;
+  }
+  .nav-brand{display:flex;align-items:center;gap:.7rem;}
+  .nav-brand img{width:48px;height:48px;border-radius:50%;}
+  .nav-brand span{font-weight:600;color:var(--teal-dark);font-size:1.05rem;}
+  .nav-links{display:flex;gap:1.8rem;list-style:none;}
+  .nav-links a{
+    color:var(--teal-dark);font-weight:500;font-size:.95rem;
+    position:relative;padding:.3rem 0;
+  }
+  .nav-links a::after{
+    content:'';position:absolute;left:0;bottom:0;height:2px;width:0;
+    background:var(--teal);transition:width .3s;
+  }
+  .nav-links a:hover::after{width:100%;}
+  .menu-toggle{
+    display:none;background:none;border:none;font-size:1.6rem;
+    color:var(--teal-dark);cursor:pointer;
+  }
+
+  /* HERO */
+  .hero{
+    background:linear-gradient(135deg,var(--cyan-soft) 0%, #ffffff 70%);
+    padding:4rem 1.5rem 5rem;
+    text-align:center;
+    position:relative;overflow:hidden;
+  }
+  .hero::after{
+    content:'';position:absolute;bottom:-1px;left:0;right:0;height:60px;
+    background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 60' preserveAspectRatio='none'><path d='M0,30 Q300,0 600,30 T1200,30 L1200,60 L0,60 Z' fill='%23ffffff'/></svg>") no-repeat center/cover;
+  }
+  .hero img.logo-hero{
+    width:200px;height:200px;margin:0 auto 1.5rem;
+    border-radius:50%;
+    box-shadow:var(--shadow-strong);
+    background:#fff;padding:8px;
+  }
+  .hero h1{
+    font-size:2.6rem;font-weight:700;color:var(--teal-dark);
+    margin-bottom:.7rem;letter-spacing:-.5px;
+  }
+  .hero p.tagline{
+    font-size:1.15rem;color:var(--muted);max-width:680px;margin:0 auto 2rem;
+  }
+  .btn{
+    display:inline-block;background:var(--teal);color:#fff;
+    padding:.85rem 2rem;border-radius:50px;font-weight:600;
+    box-shadow:var(--shadow);transition:transform .2s, background .2s;
+  }
+  .btn:hover{background:var(--teal-dark);color:#fff;transform:translateY(-2px);}
+
+  /* SECTIONS */
+  section{padding:4.5rem 1.5rem;}
+  .container{max-width:1200px;margin:0 auto;}
+  .section-title{
+    text-align:center;font-size:2rem;color:var(--teal-dark);
+    margin-bottom:.6rem;font-weight:700;
+  }
+  .section-subtitle{
+    text-align:center;color:var(--muted);margin-bottom:3rem;
+    max-width:680px;margin-left:auto;margin-right:auto;
+  }
+  .cross-accent{color:var(--teal);font-weight:700;}
+
+  /* NOSOTROS */
+  #nosotros{background:#fff;}
+  .nosotros-grid{
+    display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;
+  }
+  .nosotros-text p{margin-bottom:1rem;color:var(--muted);}
+  .nosotros-img{
+    background:var(--cyan-soft);border-radius:var(--radius);
+    aspect-ratio:1;display:flex;align-items:center;justify-content:center;
+    box-shadow:var(--shadow);
+  }
+  .nosotros-img img{width:70%;border-radius:50%;}
+
+  /* SERVICIOS */
+  #servicios{background:var(--cyan-soft);}
+  .services-grid{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:1.5rem;
+  }
+  .service-card{
+    background:#fff;border-radius:var(--radius);padding:2rem 1.5rem;
+    text-align:center;box-shadow:var(--shadow);
+    transition:transform .3s,box-shadow .3s;
+  }
+  .service-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-strong);}
+  .service-card .icon{
+    font-size:2.5rem;margin-bottom:.8rem;display:block;
+  }
+  .service-card h3{color:var(--teal-dark);margin-bottom:.5rem;font-size:1.1rem;}
+  .service-card p{color:var(--muted);font-size:.92rem;}
+
+  /* PERFUMERIA */
+  #perfumeria{background:#fff;}
+  .perf-grid{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:1.5rem;
+  }
+  .perf-card{
+    background:#fff;border:1px solid var(--cyan-soft);
+    border-radius:var(--radius);padding:1.6rem;
+    transition:transform .3s,box-shadow .3s,border-color .3s;
+  }
+  .perf-card:hover{
+    transform:translateY(-4px);
+    box-shadow:var(--shadow);
+    border-color:var(--teal-light);
+  }
+  .perf-card h3{
+    color:var(--teal-dark);font-size:1.08rem;margin-bottom:.7rem;
+    display:flex;align-items:center;gap:.5rem;
+  }
+  .perf-card h3::before{content:'✚';color:var(--teal);font-weight:700;}
+  .perf-card p{color:var(--muted);font-size:.9rem;}
+  .perf-notice{
+    margin-top:2.5rem;text-align:center;
+    background:var(--cyan-soft);padding:1.2rem;border-radius:var(--radius);
+    color:var(--teal-dark);font-weight:500;
+  }
+
+  /* UBICACION */
+  #ubicacion{background:var(--cyan-soft);}
+  .map-wrapper{
+    border-radius:var(--radius);overflow:hidden;
+    box-shadow:var(--shadow-strong);
+    aspect-ratio:16/9;max-width:1000px;margin:0 auto;
+  }
+  .map-wrapper iframe{width:100%;height:100%;border:0;}
+
+  /* CONTACTO */
+  #contacto{background:#fff;}
+  .contact-grid{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:1.5rem;
+  }
+  .contact-card{
+    background:linear-gradient(135deg,var(--teal) 0%, var(--teal-light) 100%);
+    color:#fff;padding:2rem;border-radius:var(--radius);
+    box-shadow:var(--shadow);
+  }
+  .contact-card .icon{font-size:2rem;margin-bottom:.7rem;display:block;}
+  .contact-card h3{margin-bottom:.6rem;font-size:1.15rem;}
+  .contact-card p, .contact-card a{color:#fff;opacity:.95;font-size:.95rem;}
+  .contact-card a:hover{opacity:1;text-decoration:underline;}
+
+  /* FOOTER */
+  footer{
+    background:var(--teal-dark);color:#cfe5e5;
+    padding:2.5rem 1.5rem 1.5rem;text-align:center;
+  }
+  footer .footer-brand{
+    display:flex;align-items:center;justify-content:center;gap:.8rem;
+    margin-bottom:1rem;
+  }
+  footer .footer-brand img{width:50px;height:50px;border-radius:50%;background:#fff;padding:4px;}
+  footer .footer-brand span{font-size:1.1rem;font-weight:600;color:#fff;}
+  footer .legal{
+    font-size:.82rem;color:#9bb8b8;margin-top:1.2rem;
+    max-width:780px;margin-left:auto;margin-right:auto;
+    border-top:1px solid rgba(255,255,255,.1);padding-top:1rem;
+  }
+  footer .copy{font-size:.88rem;margin-top:.8rem;color:#9bb8b8;}
+
+  /* RESPONSIVE */
+  @media (max-width:768px){
+    .nav-links{
+      display:none;position:absolute;top:100%;right:0;left:0;
+      background:#fff;flex-direction:column;padding:1rem 1.5rem;
+      box-shadow:0 4px 10px rgba(0,0,0,.08);gap:1rem;
+    }
+    .nav-links.open{display:flex;}
+    .menu-toggle{display:block;}
+    .hero h1{font-size:1.9rem;}
+    .hero img.logo-hero{width:150px;height:150px;}
+    .nosotros-grid{grid-template-columns:1fr;}
+    .section-title{font-size:1.6rem;}
+    section{padding:3.5rem 1.2rem;}
+  }
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="nav-container">
+    <div class="nav-brand">
+      <img src="logo.png" alt="Logo Farmacia Las Compuertas" />
+      <span>Farmacia Las Compuertas</span>
+    </div>
+    <button class="menu-toggle" aria-label="Menú">☰</button>
+    <ul class="nav-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#perfumeria">Perfumería</a></li>
+      <li><a href="#ubicacion">Ubicación</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="inicio" class="hero">
+  <img class="logo-hero" src="logo.png" alt="Logo Farmacia Las Compuertas" />
+  <h1>Farmacia Las Compuertas</h1>
+  <p class="tagline">Salud, cuidado y bienestar en el corazón de Las Compuertas, Luján de Cuyo. Atención personalizada y productos de las mejores marcas.</p>
+  <a href="#contacto" class="btn">Contactanos</a>
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros">
+  <div class="container">
+    <h2 class="section-title">Sobre <span class="cross-accent">Nosotros</span></h2>
+    <p class="section-subtitle">Una farmacia de cercanía con vocación de servicio.</p>
+    <div class="nosotros-grid">
+      <div class="nosotros-text">
+        <p>En <strong>Farmacia Las Compuertas</strong> trabajamos día a día para acompañar la salud y el bienestar de nuestra comunidad. Ofrecemos atención profesional, asesoramiento farmacéutico y un trato cercano que nos distingue.</p>
+        <p>Contamos con una amplia variedad de medicamentos, productos de perfumería, dermocosmética, cuidado del bebé, higiene personal y mucho más, siempre de las marcas líderes del mercado.</p>
+        <p>Nos encontramos sobre la Ruta 82, en un punto estratégico para servir a vecinos, viajeros y visitantes de la zona de Luján de Cuyo.</p>
+      </div>
+      <div class="nosotros-img">
+        <img src="logo.png" alt="Farmacia Las Compuertas" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios">
+  <div class="container">
+    <h2 class="section-title">Nuestros <span class="cross-accent">Servicios</span></h2>
+    <p class="section-subtitle">Todo lo que necesitás para cuidarte, en un solo lugar.</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <span class="icon">💊</span>
+        <h3>Medicamentos</h3>
+        <p>Venta de medicamentos de venta libre y recetados con asesoramiento profesional.</p>
+      </div>
+      <div class="service-card">
+        <span class="icon">🧴</span>
+        <h3>Perfumería</h3>
+        <p>Cuidado facial, corporal, capilar y productos de higiene personal.</p>
+      </div>
+      <div class="service-card">
+        <span class="icon">👶</span>
+        <h3>Cuidado del Bebé</h3>
+        <p>Pañales, mamaderas, chupetes, toallitas y accesorios para los más pequeños.</p>
+      </div>
+      <div class="service-card">
+        <span class="icon">🌿</span>
+        <h3>Dermocosmética</h3>
+        <p>Productos para el cuidado de la piel de las mejores marcas dermatológicas.</p>
+      </div>
+      <div class="service-card">
+        <span class="icon">🦷</span>
+        <h3>Higiene Bucal</h3>
+        <p>Cepillos, pastas, enjuagues e hilos dentales para tu salud bucal.</p>
+      </div>
+      <div class="service-card">
+        <span class="icon">☀️</span>
+        <h3>Protección Solar</h3>
+        <p>Protectores solares para toda la familia, todo el año.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PERFUMERIA -->
+<section id="perfumeria">
+  <div class="container">
+    <h2 class="section-title">Productos de <span class="cross-accent">Perfumería</span></h2>
+    <p class="section-subtitle">Una amplia gama de productos de primeras marcas. Consultá disponibilidad en el local.</p>
+    <div class="perf-grid">
+
+      <div class="perf-card">
+        <h3>Cuidado Facial y Corporal</h3>
+        <p>Bagovit, Dermaglós, Nivea, Hinds, CeraVe, Adermicina, Dove, Pond's, Valca Regeneradora, Ferrini, Rapiderm, Deskin.</p>
+      </div>
+
+      <div class="perf-card">
+        <h3>Protección Solar</h3>
+        <p>Dermaglós FPS 40 / 50 / 65 / 80, Bagovit Solar Family Care F50 y opciones para toda la familia.</p>
+      </div>
+
+      <div class="perf-card">
+        <h3>Cuidado Capilar</h3>
+        <p>Shampoo, acondicionador y tinturas: Elvive, Fructis, Sedal, Dove, Head &amp; Shoulders, Tío Nacho, Capilatis, Nutrisse, Excellence, Issue, Inecto, Roby.</p>
+      </div>
+
+      <div class="perf-card">
+        <h3>Higiene Bucal</h3>
+        <p>Colgate, Oral-B, GUM, Parodontax, Plax, Listerine, Sensident, Elgydium, hilos dentales y enjuagues bucales.</p>
+      </div>
+
+      <div class="perf-card">
+        <h3>Cuidado Dental Protésico</h3>
+        <p>Adhesivos Corega Ultra y Máximo Sellado, Dentilac y productos para prótesis dentales.</p>
+      </div>
+
+      <div class="perf-card">
+        <h3>Desodorantes y Cuidado Personal</h3>
+        <p>Rexona, Axe, Dove, Nivea, Etiquet, Odorono, Efficient (pies), Veritas.</p>
+      </div>
+
+      <div class="perf-card">
+        <h3>Afeitado</h3>
+        <p>Gillette Mach 3, Prestobarba, Venus, Schick, espumas Foamy y brochas Apper.</p>
+      </div>
+
+      <div class="perf-card">
+        <h3>Maquillaje y Esmaltes</h3>
+        <p>Maybelline, Vogue, Colorama, Jactans, Issue Crazy Colors, Dorothy Gray, Asepxia maquillaje.</p>
+      </div>
+
+      <div class="perf-card">
+        <h3>Cuidado del Bebé</h3>
+        <p>Johnson's Baby, Huggies, Pampers, mamaderas Babelito / Teddy / Bebefantitos, chupetes Teddy, toallitas húmedas, aspirador nasal Mokimel, fécula Veritas.</p>
+      </div>
+
+      <div class="perf-card">
+        <h3>Higiene Femenina e Íntima</h3>
+        <p>Always, Kotex, Carefree, Nosotras, Calipso, OB, Comodín, Femigel, Evagina, Eva Copa.</p>
+      </div>
+
+      <div class="perf-card">
+        <h3>Suplementos y Vitaminas</h3>
+        <p>Centrum, Ensure, Glucerna, ENA Creatina y Protein, Natufarma, Holomagnesio, Redoxon, Blue-Vit B12, Tanvimil.</p>
+      </div>
+
+      <div class="perf-card">
+        <h3>Test y Cuidado Reproductivo</h3>
+        <p>Evatest, Mater Test, preservativos Prime y Profi Prime.</p>
+      </div>
+
+      <div class="perf-card">
+        <h3>Primeros Auxilios y Curaciones</h3>
+        <p>Curitas, Micropore, gasas, algodón Estrella / Donna / Dispita, alcohol, agua oxigenada, vendas, cinta Hipo-Pore.</p>
+      </div>
+
+      <div class="perf-card">
+        <h3>Lentes de Contacto</h3>
+        <p>Soluciones Renu Fresh, Renu Advanced, Natura Express y Arlyt Express.</p>
+      </div>
+
+      <div class="perf-card">
+        <h3>Repelentes y Antipediculosis</h3>
+        <p>Aulogelio, Nopucid, Assy 2000 y productos para el cuidado capilar antipiojos.</p>
+      </div>
+
+      <div class="perf-card">
+        <h3>Accesorios de Belleza</h3>
+        <p>Limas, alicates, pinzas de depilar, cepillos y espejos de marcas Apper, Trim, Mas y Heburn.</p>
+      </div>
+
+      <div class="perf-card">
+        <h3>Hogar y Limpieza</h3>
+        <p>Lysoform, Cif, Smell Fresh y productos para la higiene del hogar.</p>
+      </div>
+
+      <div class="perf-card">
+        <h3>Cuidado del Adulto Mayor</h3>
+        <p>Pañales Plenitud, Comodín incontinencia y zaleas descartables.</p>
+      </div>
+
+    </div>
+    <div class="perf-notice">
+      📞 Consultá disponibilidad y precios en el local o por correo electrónico.
+    </div>
+  </div>
+</section>
+
+<!-- UBICACION -->
+<section id="ubicacion">
+  <div class="container">
+    <h2 class="section-title">¿Dónde <span class="cross-accent">Estamos</span>?</h2>
+    <p class="section-subtitle">Ruta 82, Km 22.5 — Las Compuertas, Luján de Cuyo, Mendoza.</p>
+    <div class="map-wrapper">
+      <iframe
+        src="https://www.google.com/maps?q=Ruta+82+Km+22.5+Las+Compuertas+Luj%C3%A1n+de+Cuyo+Mendoza&output=embed"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        title="Ubicación Farmacia Las Compuertas"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <div class="container">
+    <h2 class="section-title">Contacto</h2>
+    <p class="section-subtitle">Estamos para ayudarte. Escribinos o visitanos.</p>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <span class="icon">📍</span>
+        <h3>Dirección</h3>
+        <p>Ruta 82, Km 22.5<br/>Las Compuertas<br/>Luján de Cuyo, Mendoza</p>
+      </div>
+      <div class="contact-card">
+        <span class="icon">✉️</span>
+        <h3>Email</h3>
+        <p><a href="mailto:farmacialascompuertas@gmail.com">farmacialascompuertas@gmail.com</a></p>
+      </div>
+      <div class="contact-card">
+        <span class="icon">🕒</span>
+        <h3>Horarios</h3>
+        <p>Lunes a Sábado<br/>8:30 a 13:00 hs<br/>16:30 a 21:00 hs<br/><small>(Horarios sujetos a confirmación)</small></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-brand">
+    <img src="logo.png" alt="Logo Farmacia Las Compuertas" />
+    <span>Farmacia Las Compuertas</span>
+  </div>
+  <p class="copy">© 2026 Farmacia Las Compuertas — Giamportone Mónica Rosa. Todos los derechos reservados.</p>
+  <p class="legal">
+    Los medicamentos son productos que afectan la salud. Su uso indebido puede ser perjudicial.
+    Consulte a su médico o farmacéutico antes de utilizarlos.
+  </p>
+</footer>
+
+<script>
+  // Mobile menu toggle
+  const toggle = document.querySelector('.menu-toggle');
+  const links  = document.querySelector('.nav-links');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+  // Close menu on link click (mobile)
+  document.querySelectorAll('.nav-links a').forEach(a =>
+    a.addEventListener('click', () => links.classList.remove('open'))
+  );
+</script>
+
+</body>
+</html>
